@@ -28,9 +28,9 @@ O(2**n)
 ```
 ## Algorithm complexity
 
-O(1): Constant
-O(n): Lineal
-O(log n): Logarithmic
-O(n log n): log lineal
-O(n\**2): Polynomial
-O(2\**n) : Exponential
+- O(1): Constant
+- O(n): Lineal
+- O(log n): Logarithmic
+- O(n log n): log lineal
+- O(n\*\*2): Polynomial
+- O(2\*\*n) : Exponential
