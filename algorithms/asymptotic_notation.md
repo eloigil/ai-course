@@ -58,3 +58,4 @@ Insertion sort is a simple sorting algorithm that builds the final sorted array 
 O(n\*\*2)
 
 ## Merge sort
+![merge sort](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
