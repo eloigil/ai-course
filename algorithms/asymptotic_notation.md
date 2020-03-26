@@ -29,8 +29,25 @@ O(2**n)
 ## Algorithm complexity
 
 - O(1): Constant
-- O(n): Lineal
+- O(n): Linear
 - O(log n): Logarithmic
 - O(n log n): log lineal
 - O(n\*\*2): Polynomial
 - O(2\*\*n) : Exponential
+
+## Search & sorting algorithms
+### Linear search
+It sequentially checks each element of the list until a match is found or the whole list has been searched.
+
+O(n)
+
+### Binary search
+Search a sorted array by repeatedly dividing the search interval in half.
+
+O(log n)
+
+### Bubble sorting
+Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
+
+O(n\*\*2)
+
