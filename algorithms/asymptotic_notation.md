@@ -46,8 +46,15 @@ Search a sorted array by repeatedly dividing the search interval in half.
 
 O(log n)
 
-### Bubble sorting
+### Bubble sort
 Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 
 O(n\*\*2)
 
+## Insertion sort
+Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much less efficient on large lists than more advanced algorithms
+[insertion sort]: https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif
+
+O(n\*\*2)
+
+## Merge sort
