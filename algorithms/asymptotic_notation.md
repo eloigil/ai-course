@@ -51,17 +51,24 @@ Bubble Sort is the simplest sorting algorithm that works by repeatedly swapping 
 
 O(n\*\*2)
 
-## Insertion sort
+### Insertion sort
 Insertion sort is a simple sorting algorithm that builds the final sorted array (or list) one item at a time. It is much less efficient on large lists than more advanced algorithms
+
 ![insertion sort](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
 
 O(n\*\*2)
 
-## Merge sort
+### Merge sort
 Conceptually, a merge sort works as follows:
 
 1. Divide the unsorted list into n sublists, each containing one element (a list of one element is considered sorted).
 2. Repeatedly merge sublists to produce new sorted sublists until there is only one sublist remaining. This will be the sorted list.
+
 ![merge sort](https://upload.wikimedia.org/wikipedia/commons/c/cc/Merge-sort-example-300px.gif)
 
 O(n * log n)
+
+
+
+## Data visualisation with (Bokeh)[docs.bokeh.org]
+
