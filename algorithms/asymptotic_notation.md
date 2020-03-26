@@ -70,5 +70,5 @@ O(n * log n)
 
 
 
-## Data visualisation with [Bokeh](docs.bokeh.org)
+## Data visualization with [Bokeh](docs.bokeh.org)
 
