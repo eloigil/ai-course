@@ -30,3 +30,19 @@ Stochastic programming is a framework for modeling optimization problems that in
 - additive law of probability
 `P(A o B) = P(A) + P(B) [mutually exclusive]`
 `P(A o B) = P(A) + P(B) -  P(A & B) [mutually non-exclusive]`
+
+## Statistical inference
+Statistical inference is the process of using data analysis to deduce properties of an underlying distribution of probability
+
+### Law of large numbers
+The average of the results obtained from a large number of trials should be close to the expected value and will tend to become closer to the expected value as more trials are performed.
+
+![law of large numbers](https://wikimedia.org/api/rest_v1/media/math/render/svg/bd76c5b48534e2a4821e5c0bc577c031ecf498b1)
+
+### Mean
+Central value of a discrete set of numbers: specifically, the sum of the values divided by the number of values.
+
+![mean](https://wikimedia.org/api/rest_v1/media/math/render/svg/4e3313161244f8ab61d897fb6e5fbf6647e1d5f5)
+
+- population mean: μ (mu)
+- sample mean: x̄ (x bar)
