@@ -46,3 +46,15 @@ Central value of a discrete set of numbers: specifically, the sum of the values 
 
 - population mean: μ (mu)
 - sample mean: x̄ (x bar)
+
+### Variance
+variance is the expectation of the squared deviation of a random variable from its mean
+
+![variance](https://wikimedia.org/api/rest_v1/media/math/render/svg/0c5c6e7bbd52e69c29e2d5cfe21989313aba55d4)
+
+### Standard deviation
+Square root of the variance.
+It has the same units as the mean.
+
+![standard deviation](https://wikimedia.org/api/rest_v1/media/math/render/svg/4c98cfcd7dc201f65aa452ed555666f1b23bf477)
+
