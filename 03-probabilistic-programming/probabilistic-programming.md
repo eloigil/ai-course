@@ -8,3 +8,12 @@ Conditional probability is a measure of the probability of an event occurring gi
 Describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
 
 ![Bayes' theorem](https://wikimedia.org/api/rest_v1/media/math/render/svg/87c061fe1c7430a5201eef3fa50f9d00eac78810)
+
+*developed:*
+```
+P(Hypothesis & Event) = P(H&E) / P(E) = P(H)P(E|H) / (P(H)P(E|H) + P(¬H)P(E|¬H))
+```
+
+- **P(H)** *(prior)* Hypothesis before evidence
+- **P(H|E)** *(posterior)*
+- **P(E|H)** *(likelihood)* probability that this situation is correct
