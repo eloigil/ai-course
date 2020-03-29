@@ -17,3 +17,23 @@ P(Hypothesis & Event) = P(H&E) / P(E) = P(H)P(E|H) / (P(H)P(E|H) + P(¬H)P(E|¬H
 - **P(H)** *(prior)* Hypothesis before evidence
 - **P(H|E)** *(posterior)*
 - **P(E|H)** *(likelihood)* probability that this situation is correct
+
+## Statistics fallacies
+### Garbage in, garbage out
+Nonsense input data produces nonsense output or "garbage".
+
+### Cum Hoc Ergo Propter Hoc
+Correlation doesn't mean causality
+
+### Prejudice in sampling
+Is a fallacy not having a representative sample of the population.
+
+### Texas sharpshooter fallacy
+Is committed when differences in data are ignored, but similarities are overemphasized.
+
+It is related to the clustering illusion, which is the tendency in human cognition to interpret patterns where none actually exist.
+
+### Regression fallacy
+It assumes that something has returned to normal because of corrective actions taken while it was abnormal.
+
+This fails to account for natural fluctuations. It is frequently a special kind of the post hoc fallacy.
