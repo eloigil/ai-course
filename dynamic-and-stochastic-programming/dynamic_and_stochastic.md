@@ -58,3 +58,12 @@ It has the same units as the mean.
 
 ![standard deviation](https://wikimedia.org/api/rest_v1/media/math/render/svg/4c98cfcd7dc201f65aa452ed555666f1b23bf477)
 
+
+## Sampling
+- **random sampling**: each sample has an equal probability of being chosen
+- **stratified sampling**: method of sampling from a population which can be partitioned into subpopulations
+
+#### Central limit theorem
+when independent random variables are added, their properly normalized sum tends toward a normal distribution (informally a bell curve) even if the original variables themselves are not normally distributed
+
+![central limit theorem](https://upload.wikimedia.org/wikipedia/commons/7/7b/IllustrationCentralTheorem.png)
