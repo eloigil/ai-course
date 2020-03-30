@@ -37,3 +37,37 @@ It is related to the clustering illusion, which is the tendency in human cogniti
 It assumes that something has returned to normal because of corrective actions taken while it was abnormal.
 
 This fails to account for natural fluctuations. It is frequently a special kind of the post hoc fallacy.
+
+
+## Machine learning
+### Feature vectors
+Represent symbolic or numerical features, allowing to analize an object from a mathematical perspective.
+
+Define which elements are important for an algorithm.
+
+### Distance metrics
+Quantify how closer are the vectors incorporated into the algorithm
+
+### Clustering
+Group similar* objects into clusters that identify them
+- hard clustering: each object belongs to a cluster
+- soft clustering: each object is assigned a certain probability to belong to a cluster
+
+#### Hierarchical clustering
+- **Agglomerative**: *This is a "bottom-up" approach*: each observation starts in its own cluster, and pairs of clusters are merged as one moves up the hierarchy.
+- **Divisive**: *This is a "top-down" approach*: all observations start in one cluster, and splits are performed recursively as one moves down the hierarchy.
+Dendogram:
+![Dendogram](https://upload.wikimedia.org/wikipedia/commons/1/12/Iris_dendrogram.png)
+
+#### K-means
+Uses the centroids(mean of a cluster) to group the objects.
+
+#### *Similitude
+There are 4 aproximations to define similitude:
+- **connective models**: Similar points are the ones closer to the search space.
+- **centroid models**: defines similitude in terms of closeness to the centroid of the cluster.
+- **distribution models**: Tries to assign probabilities to each data unit, in order to determine if it belongs to a specific distribution.
+- **density models**: analyze the density of data in different regions and divide the set in clusters.
+
+*You can use more than a model to get better results*
+
