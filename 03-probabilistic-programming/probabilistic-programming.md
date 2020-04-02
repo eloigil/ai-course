@@ -71,3 +71,21 @@ There are 4 aproximations to define similitude:
 
 *You can use more than a model to get better results*
 
+## Classification
+### K-nearest
+Tries to find the closest *(k)* neighbors (previously classified) to the object we want to classify.
+
+### Linear classificators
+Divide data with a line genereating different areas in the space.
+
+
+### Logistic regression
+Generates a gradient that determines the probability of a point to be in a category.
+
+### Nearest Neighbor
+
+### Support vector machines
+Generate complex figures that group data. 
+
+### Decision trees
+Generate a tree to follow, and with decisions we have to take each level.
