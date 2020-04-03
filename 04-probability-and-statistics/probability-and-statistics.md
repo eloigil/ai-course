@@ -52,3 +52,26 @@ Getting subgroups of *r* elements from a group of *n* elements. And none of thes
 ```
 Cn,r = n! / r!(n-r)!
 ```
+
+### Data distribution
+- absolute frequency: number of times a data appears (ni)
+- relative frequency: number of times a data appears
+```
+Fi = ni / N
+```
+
+#### Graphics
+- sectors diagram
+- freqüency plygon
+- bars graphic
+
+### Central trend measurements
+#### mean
+![mean](https://wikimedia.org/api/rest_v1/media/math/render/svg/4e3313161244f8ab61d897fb6e5fbf6647e1d5f5)
+
+#### median
+Central value of a sorted list of elements.
+![median](https://wikimedia.org/api/rest_v1/media/math/render/svg/c3253c25db67454d6f6c763a73cc64dbf0d47b74)
+
+#### trend
+Most repeated value
