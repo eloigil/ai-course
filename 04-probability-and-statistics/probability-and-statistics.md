@@ -24,7 +24,8 @@ Event formed with all elements that match A or B
 ```
 P(A∪B) = P(A) + P(B) - P(A∩B)
 ```
-#### Intersection
+
+### Intersection
 Event formed with all elements that match A and B
 ```
 P(A∩B) = P(A|B) * P(B)
@@ -39,15 +40,14 @@ Group *n* elements into subroups of *r* elements
 Vn,r = n! / (n - r)!
 ```
 
-#### Permutations
+#### Permutations
 Variations of *n* elements in subroups of *r*, where *n = r*
 
 Each subgroup differs from the others just in the orther of the elements.
 ```
 Pn = n!
 ```
-
-#### Combinations
+#### Combinations
 Getting subgroups of *r* elements from a group of *n* elements. And none of these subgroups is repeated.
 ```
 Cn,r = n! / r!(n-r)!
