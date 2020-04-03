@@ -74,3 +74,10 @@ Central value of a sorted list of elements.
 
 ### trend
 Most repeated value
+
+## Correlation
+- direct
+- inverse
+- null
+### Covariance
+Indicates the degree of variation of two random variables with respect to their means
