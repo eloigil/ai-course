@@ -7,10 +7,13 @@
   - impossible: this event can't happen
 
 ### Laplace's rule
-`P(A) = favorable cases of A / possible cases`
+```
+P(A) = favorable cases of A / possible cases
+```
 
 ### Compound probability
 More than one random event occurs.
+
 #### Event types:
 - compatible: when it can be found in each sample space
 - incompatible: when it can't be found in each sample space
@@ -18,25 +21,34 @@ More than one random event occurs.
 
 #### Union
 Event formed with all elements that match A or B
-`P(A∪B) = P(A) + P(B) - P(A∩B)`
-
+```
+P(A∪B) = P(A) + P(B) - P(A∩B)
+```
 #### Intersection
 Event formed with all elements that match A and B
-`P(A∩B) = P(A|B) * P(B)`
-`P(B|A) = P(A∩B) / P(A) si P(A)≠0`
+```
+P(A∩B) = P(A|B) * P(B)
+P(B|A) = P(A∩B) / P(A) si P(A)≠0
+```
 
 ### Combinatorics
+
 #### Variations
 Group *n* elements into subroups of *r* elements 
-`Vn,r = n! / (n - r)!`
+```
+Vn,r = n! / (n - r)!
+```
+
 #### Permutations
 Variations of *n* elements in subroups of *r*, where *n = r*
 
 Each subgroup differs from the others just in the orther of the elements.
-
-`Pn = n!`
+```
+Pn = n!
+```
 
 #### Combinations
 Getting subgroups of *r* elements from a group of *n* elements. And none of these subgroups is repeated.
-
-`Cn,r = n! / r!(n-r)!`
+```
+Cn,r = n! / r!(n-r)!
+```
