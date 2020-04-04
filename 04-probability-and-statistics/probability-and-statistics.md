@@ -81,3 +81,37 @@ Most repeated value
 - null
 ### Covariance
 Indicates the degree of variation of two random variables with respect to their means
+
+## Dispersion measurements
+### Range
+Difference between max and min value. It tracks the total dispersion.
+```
+R = max - min
+```
+
+### Mean deviation
+For non-clustered data: is the arithmetic mean of the absolute values of the deviatoins of all data with respect to the mean.
+For grouped data:
+![mean deviation](https://wikimedia.org/api/rest_v1/media/math/render/svg/d3b7f03e504d1a16a212827c21decae2e30f7f7fz)
+
+### Standard deviation
+### Variance
+
+### Pearson correlation coefficient
+Quotient between the covariance and the product of the standard deviation of each variable
+- direct --> 1
+- indirect --> -1
+- no correlation --> 0
+
+![Pearson correlation coefficient](https://wikimedia.org/api/rest_v1/media/math/render/svg/f76ccfa7c2ed7f5b085115086107bbe25d329cec)
+
+## Position parameters
+### Quartiles
+Q1=25%,Q2= 50% & Q3=75%, divide data in 4 parts. Q2 matches the mean.
+### Deciles
+Divide data in 10 parts: D1=10%, D2=20% … D9=90%. D5 matches the mean.
+### Percentiles
+Percentles: P1=1%, P2=2% … P99=99%. P50 matches the mean.
+
+
+
