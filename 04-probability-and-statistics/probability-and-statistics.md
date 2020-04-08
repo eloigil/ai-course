@@ -114,4 +114,15 @@ Divide data in 10 parts: D1=10%, D2=20% … D9=90%. D5 matches the mean.
 Percentles: P1=1%, P2=2% … P99=99%. P50 matches the mean.
 
 
+## Logistic regression
+For probabilistic problems we can use logistic regression.
+
+For a binary classification we can use  the *Sigmoid* function.
+If the classification had more parameters we could use the *Softmax* function.
+![sigmoid](https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/640px-Logistic-curve.svg.png)
+![sigmoid formula](https://wikimedia.org/api/rest_v1/media/math/render/svg/9537e778e229470d85a68ee0b099c08298a1a3f6)
+
+### Log Loss or Binary Cross Entropy
+Punishes values closer to 0 and rewards values closer to 1.
+![BCE](https://ml-cheatsheet.readthedocs.io/en/latest/_images/cross_entropy.png)
 
