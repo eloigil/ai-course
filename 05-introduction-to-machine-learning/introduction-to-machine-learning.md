@@ -55,3 +55,15 @@ Instead of using all data, we'll work with a data sample.
 |[3 4] [3 4]|
 data structure that allows to represent complex matrices in a generic way.
 
+## Artificial Neural Networks
+Solving non-linear problems
+![NN parts](https://miro.medium.com/max/2000/1*uKkEV7vd-ylSkHLm1K5cSA.png)
+
+### Perceptron
+Basic neuron: it gets data as input and an activation function is applied to it.
+
+### Activation functions
+- Heaviside Step
+- Sigmoid
+- Hyperbolic tangent
+- ReLU
