@@ -166,4 +166,33 @@ Evaluates *k* neighbors of the element we are studying and assigns a tag to it.
 Low efficiency.
 
 
-### Clustering
+### Dependency learning
+#### Bayesian Networks
+Association rules
+
+### Logic Inductive Programming
+Base knowledge
+Training
+Induced Hypothesis
+
+### Optimization
+1. generate population
+2. calculate elements aptidtude
+3. select the apt ones
+4. apply reproduction
+
+5. loop again from step 2
+
+### Q-Learning
+Reinforced learning (Q, quality)
+$$
+Q_{st,at}=Q_{st,at}+\alpha\cdot (r_t+\gamma\cdot max Q(st+1,a)-Q_{st,at})
+$$
+- $Q_{st,at}$: value
+- $\alpha$: learning
+- $\r_t$: reward
+- $\gamma$: discount
+- $st$: future estimation
+
+
+
