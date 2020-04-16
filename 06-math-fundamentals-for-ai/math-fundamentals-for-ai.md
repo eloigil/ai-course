@@ -190,7 +190,7 @@ Q_{st,at}=Q_{st,at}+\alpha\cdot (r_t+\gamma\cdot max Q(st+1,a)-Q_{st,at})
 $$
 - $Q_{st,at}$: value
 - $\alpha$: learning
-- $\r_t$: reward
+- $r_t$: reward
 - $\gamma$: discount
 - $st$: future estimation
 
