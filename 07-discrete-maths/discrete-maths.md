@@ -42,8 +42,74 @@ If a node has $\delta = 1$ it can't be a hamiltonian cycle**
 - free: main node not clear
 - rooted: root node
 - expansion: each edge is ponderated
+- binary: 2 connections in each level maximum
+  - complete binary: each node has 0 or 2 sons
+  - full binary: each leaf is in the same level
+  - degenerated: most of the nodes have 1 son
+
+**subtree**: nested tree
+
+### Minimal expansion tree
+Connecting all nodes at minimum cost
+
+### Tree traveling
+- pre-order: root-left-right
+- in-order: left-root-right
+- post-order: left-right-root
 
 
+## Algorithms
+### Prim's algorithm
+Calculates minimal expansion tree.
 
+1. start
+2. select a random node
+3. select the lowest value edge
+4. iterate connecting the lowest edge to the connected nodes
+5. it ends when all nodes are connected when $n-1$ edges
+6. end
 
+### Dijkstra's algorithm
+Calculates minimal route to get a node B from A.
+
+1. start
+2. Assign an infinite distance to each non-visited node
+3. Keep a list of all visited nodes
+4. Calculate distances to each node using last distance
+5. If the new distance is lower than the last one, replace it
+6. it ends when it reaches the destination node
+7. end
+
+### Kruskal's algorithm
+Calculates minimal expansion tree.
+
+1. start
+2. select the lowest value edge
+3. In each iteration add the available edge with the lowest value.
+4. it ends when all nodes are connected when $n-1$ edges
+6. end
+
+### Fleury's algorithm
+Finds an eulerian cycle
+
+1. start
+2. verify the degree of the graph
+3. In each iteration build a new closed path, visiting edges that hasn't been visited
+4. replace each new path in the starting one until all edges have been visited
+6. end
+
+*each node has to be visitted half of each degree times at maximum, except for the starting node*
+
+### Max flow algorithm
+Finds a path with max flow that can be sent from A to B
+
+1. start
+2. direct flows and initiate in 0
+3. get paths searching the greatest ponderation
+4. choose lowest flow in trajectory
+5. update the graph with minimum capacities
+6. look for new increasing trajectories and repeat until exhaustion
+7. end
+
+*each node has to be visitted half of each degree times at maximum, except for the starting node*
 
